@@ -1,0 +1,21 @@
+version: 0.1
+resource_type_default_usage:
+  ##
+  ## The following usage values apply to each resource of the given type, which is useful when you want to define defaults.
+  ## All values are commented-out, you can uncomment resource types and customize as needed.
+  ##
+  azurerm_key_vault_key:
+    monthly_secrets_operations: 100
+    monthly_key_rotation_renewals: 1
+    monthly_protected_keys_operations: 100
+    hsm_protected_keys: 0
+  azurerm_kubernetes_cluster:
+    load_balancer:
+      monthly_data_processed_gb: 1
+    default_node_pool:
+      nodes: 1
+  azurerm_log_analytics_workspace:
+    monthly_log_data_ingestion_gb: 1.0
+    monthly_additional_log_data_retention_gb: 1.0
+    monthly_log_data_export_gb: 0.0
+    monthly_sentinel_data_ingestion_gb: 0.0

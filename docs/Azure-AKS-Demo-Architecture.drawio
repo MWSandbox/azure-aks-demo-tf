@@ -1,0 +1,74 @@
+<mxfile modified="2023-04-02T12:45:10.458Z" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="Q0hVGlYsMebOgv5GBMMz" version="21.1.2" type="device">
+  <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="812" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="50" width="720" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="140" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-14" value="Virtual Network&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="307" y="140" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-3" value="Azure Key Vault" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="632" y="150.62" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VWI6kQkoAEb8Ondnj6wc-4" target="VWI6kQkoAEb8Ondnj6wc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VWI6kQkoAEb8Ondnj6wc-4" target="VWI6kQkoAEb8Ondnj6wc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-4" value="Active Directory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="1">
+          <mxGeometry x="182" y="225" width="54.69" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-9" value="Admin Group" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=group" vertex="1" parent="1">
+          <mxGeometry x="90" y="227" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-18" value="Log Analytics Workspace" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" vertex="1" parent="1">
+          <mxGeometry x="632" y="310" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-20" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="150.62" width="35" height="18.75" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.023;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VWI6kQkoAEb8Ondnj6wc-1" target="VWI6kQkoAEb8Ondnj6wc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="250" />
+              <mxPoint x="552" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VWI6kQkoAEb8Ondnj6wc-1" target="VWI6kQkoAEb8Ondnj6wc-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="250" />
+              <mxPoint x="552" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-1" value="AKS Cluster" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="399.33000000000004" y="230" width="45.34" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-7" value="Resource Group&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="62" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-5" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+          <mxGeometry x="70.57" y="58.33000000000001" width="39.58" height="31.67" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-29" value="Authenticates" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VWI6kQkoAEb8Ondnj6wc-28" target="VWI6kQkoAEb8Ondnj6wc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWI6kQkoAEb8Ondnj6wc-28" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="194.35000000000002" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
